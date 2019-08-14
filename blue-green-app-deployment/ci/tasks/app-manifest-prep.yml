@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: pivotalservices/docker-concourse-cf-tools
+    repository: docker.artifactory.platform.manulife.io/hk-java-cf-flyway
     tag: "latest"
 
 inputs:
